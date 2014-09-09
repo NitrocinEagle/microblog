@@ -8,5 +8,5 @@ class LoginForm(Form):
 
 class EditForm(Form):
     nickname = TextField('nickname', validators = [Required()])
-    about_me = TextAreaField('about_me', validators = [Length(min = 0, max = 14$
+    about_me = TextAreaField('about_me', validators = [Length(min = 0, max = 140)])
 
